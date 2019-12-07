@@ -3,6 +3,7 @@ Support for covers which integrate with other components.
 
 For more details about this platform, please refer to the documentation at
 https://home-assistant.io/components/cover.template/
+https://developers.home-assistant.io/docs/en/entity_cover.html
 """
 import asyncio
 import logging
@@ -195,7 +196,7 @@ class CoverTemplate(CoverDevice):
         self._tilt_optimistic = tilt_optimistic or not tilt_template
         self._icon = None
         self._position = 0
-        self._tilt_value = 0
+        self._tilt_value = None #Disabled because my shades don't have tilt.
         self._in_motion = False
         self._entities = entity_ids
 
