@@ -3,6 +3,6 @@
   "name": "Timed Cover",
   "documentation": "https://github.com",
   "dependencies": [],
-  "codeowners": ["@sendorm"],
+  "codeowners": ["@sendorm","@RmooreID"],
   "requirements": []
 }
